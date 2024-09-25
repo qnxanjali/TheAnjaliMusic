@@ -187,7 +187,7 @@ async def collect_env_variables(message, env_vars):
                 timeout=300,
             )
             if response.text == "/cancel":
-                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC
+                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
                 await message.reply_text("**Deployment canceled.**")
                 return None
             user_inputs[var_name] = response.text
@@ -316,7 +316,7 @@ async def ask_for_branch(callback_query, branches, default_branch):
 @app.on_message(filters.command("host") & filters.private & SUDOERS)
 async def host_app(client, message):
     global app_name  # Declare global to use it everywhere
-    REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC
+    REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
     await ask_repo_choice(message)
 
 
@@ -326,7 +326,7 @@ async def handle_repo_choice(client, callback_query):
     choice = callback_query.data.split("_")[1]
 
     if choice == "upstream":
-        REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC
+        REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
         branches = await fetch_repo_branches(REPO_URL)
         default_branch = "master"
         await ask_for_branch(callback_query, branches, default_branch)
@@ -345,7 +345,7 @@ async def handle_repo_choice(client, callback_query):
                 await message.reply_text(
                     convert_to_small_caps("**Deployment canceled.**")
                 )
-                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC
+                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
                 return None
 
             REPO_URL = response.text
@@ -367,7 +367,7 @@ async def handle_repo_choice(client, callback_query):
                 await message.reply_text(
                     convert_to_small_caps("**Deployment canceled.**")
                 )
-                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC
+                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
                 return None
 
             await callback_query.message.reply_text(
@@ -378,7 +378,7 @@ async def handle_repo_choice(client, callback_query):
             return await handle_repo_choice(client, callback_query)
 
         except ListenerTimeout:
-            REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC
+            REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
             await callback_query.message.edit_text(
                 convert_to_small_caps(
                     "Timeout! You must provide the external repo URL within 5 minutes."
@@ -412,7 +412,7 @@ async def collect_app_info(message):
                 await message.reply_text(
                     convert_to_small_caps("**Deployment canceled.**")
                 )
-                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC
+                REPO_URL = "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC"
                 return None
         except ListenerTimeout:
             await message.reply_text(
