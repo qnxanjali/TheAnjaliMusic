@@ -5,7 +5,7 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from VIPMUSIC import app
 
 MISHI = [
-    "https://envs.sh/qii.jpg,
+    "https://envs.sh/qii.jpg",
     "https://envs.sh/qii.jpg",
     "https://envs.sh/qii.jpg",
     "https://envs.sh/qii.jpg",
