@@ -45,6 +45,7 @@ UPDATE_COMMAND = get_command("UPDATE_COMMAND")
 RESTART_COMMAND = get_command("RESTART_COMMAND")
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 
 
 async def is_heroku():
