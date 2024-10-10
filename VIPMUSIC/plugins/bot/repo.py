@@ -31,7 +31,7 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/ANJALIWORLD"),
+          InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/+b1gc4qrvfLZlNGI1"),
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/AnjaliOwnerBot"),
           ],
                [
@@ -39,7 +39,7 @@ async def start(_, msg):
 
 ],
 [
-              InlineKeyboardButton("𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/TheAnjaliBot"),
+              InlineKeyboardButton("𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/TheAnjaliRobot"),
               InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/TheAnjaliMusicBot"),
 
         ]]
