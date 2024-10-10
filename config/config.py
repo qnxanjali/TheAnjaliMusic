@@ -1,4 +1,5 @@
 
+import os
 import re
 from os import getenv
 
@@ -14,11 +15,11 @@ API_ID = int(getenv("API_ID", ""))
 
 API_HASH = getenv("API_HASH")
 
-BOT_USERNAME="TheAnjaliMusicBot"
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
+BOT_USERNAME = "TheAnjaliRobot"
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -75,7 +76,7 @@ OWNER_ID = list(
 # make your bots privacy from telegra.ph and put your url here
 
 PRIVACY_LINK = getenv(
-    "PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-VIPMUSIC-08-30"
+    "PRIVACY_LINK", "https://t.me/qnxanjaliabout"'
 )
 
 
@@ -99,14 +100,19 @@ GIT_TOKEN = getenv(
     "",
 )
 
+# Auto Gcast/Broadcast Handler, Write:- [On / Off] During Hosting.
+AUTO_GCAST = os.getenv("AUTO_GCAST", "off")
+
+# Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
+AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/ANJALINETWORK"
-)  # Example:- https://t.me/VIP_CREATORS
+)  # Example:- https://t.me/nenobots
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ANJALISUPPORTNETWORK"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_GROUP", "https://t.me/+EgyhXPWmSBNiZGU1"
+)  # Example:- https://t.me/ur_support07
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_GROUP", "https://t.me/ANJALIWORLD"
@@ -132,7 +138,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/qnxanjali/TheAnjali")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/qnxanjaliabout")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -205,7 +211,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/e256025e395b0417dbd34.jpg",
+    "https://envs.sh/WU6.jpg",
 )
 
 PING_IMG_URL = getenv(
