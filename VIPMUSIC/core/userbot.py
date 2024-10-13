@@ -65,8 +65,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ANJALIWORLD")
-                await self.one.join_chat("ANJALINETWORK")
+                await self.one.join_chat("RBGOFFICIAL1")
+                await self.one.join_chat("RBGOFFICIAL1")
             except:
                 pass
             assistants.append(1)
@@ -91,8 +91,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("ANJALIWORLD")
-                await self.two.join_chat("ANJALINETWORK")
+                await self.two.join_chat("RBGOFFICIAL1")
+                await self.two.join_chat("RBGOFFICIAL1")
             except:
                 pass
             assistants.append(2)
@@ -117,8 +117,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("ANJALIWORLD")
-                await self.three.join_chat("ANJALINETWORK")
+                await self.three.join_chat("RBGOFFICIAL1")
+                await self.three.join_chat("RBGOFFICIAL1")
             except:
                 pass
             assistants.append(3)
@@ -143,8 +143,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("ANJALIWORLD")
-                await self.four.join_chat("ANJALINETWORK")
+                await self.four.join_chat("RBGOFFICIAL1")
+                await self.four.join_chat("RBGOFFICIAL1")
             except:
                 pass
             assistants.append(4)
@@ -169,8 +169,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("ANJALIWORLD")
-                await self.five.join_chat("ANJALINETWORK")
+                await self.five.join_chat("RBGOFFICIAL1")
+                await self.five.join_chat("RBGOFFICIAL1")
             except:
                 pass
             assistants.append(5)
