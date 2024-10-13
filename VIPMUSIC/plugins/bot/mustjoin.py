@@ -17,7 +17,7 @@ MISHI = [
 
 #--------------------------
 
-MUST_JOIN = "ANJALIWORLD"
+MUST_JOIN = "ANJALINETWORK"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -38,7 +38,7 @@ async def must_join_channel(app: Client, msg: Message):
                         [
                             [
                                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/ANJALINETWORK"),
-                                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/ANJALIWORLD"),
+                                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/RBGOFFICIAL1"),
                             ]
                         ]
                     )
